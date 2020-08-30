@@ -39,7 +39,7 @@
                 <p>{{ comment.text|safe|linebreaks }}</p>
                 <p>Posted By: {{ comment.author }}</p>
             {% endif %}
-            {% empty %}
+        {% empty %}
             <p>No comments</p>
         {% endfor %}
     </div>
